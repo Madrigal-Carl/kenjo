@@ -1,3 +1,9 @@
+import Product from './Product'
+
 export default function Home() {
-    return <h1>Home</h1>
+    return (
+        <>
+            <Product />
+        </>
+    )
 }
