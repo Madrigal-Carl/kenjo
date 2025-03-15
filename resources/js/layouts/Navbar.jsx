@@ -42,7 +42,7 @@ export default function Navbar() {
                                 <AccountCircle className="cursor-pointer" />
                             </div>
                         ) : (
-                            <button className="px-4 py-2 text-white rounded-full outline outline-white outline-offset-2 transition hover:bg-[#5f2e1579]">
+                            <button href="/signin" className="cursor-pointer px-4 py-2 text-white rounded-full outline outline-white outline-offset-2 transition hover:bg-[#5f2e1579]">
                                 Get Started
                             </button>
                         )}
