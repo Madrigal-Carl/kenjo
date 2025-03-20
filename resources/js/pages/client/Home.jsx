@@ -1,9 +1,14 @@
+import ClientDefault from '../../layouts/client/Default'
 import Product from './Product'
 
-export default function Home() {
+const Home = () => {
     return (
         <>
             <Product />
         </>
     )
 }
+
+Home.layout = page => <ClientDefault>{page}</ClientDefault>
+
+export default Home

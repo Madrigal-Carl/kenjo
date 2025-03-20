@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useSearch } from "../../layouts/SearchProvider";
+import { useSearch } from "../../layouts/client/SearchProvider";
 
 export default function Product() {
     const { searchQuery } = useSearch();
@@ -64,16 +64,16 @@ export default function Product() {
 }
 
 const itemData = [
-    { id: 1, img: 'images/breakfast.jpg', title: 'Breakfast', description: 'A delicious morning meal to start your day.', price: 12.99 },
-    { id: 2, img: 'images/burger.jpg', title: 'Burger', description: 'Juicy beef burger with fresh lettuce and cheese.', price: 8.99 },
-    { id: 3, img: 'images/camera.jpg', title: 'Camera', description: 'Capture every moment with this high-quality camera.', price: 499.99 },
-    { id: 4, img: 'images/coffee.jpg', title: 'Coffee', description: 'Freshly brewed coffee for an energetic day.', price: 3.99 },
-    { id: 5, img: 'images/hats.jpg', title: 'Hats', description: 'Stylish hats to complete your look.', price: 19.99 },
-    { id: 6, img: 'images/honey.jpg', title: 'Honey', description: 'Pure organic honey, straight from the hive.', price: 7.99 },
-    { id: 7, img: 'images/basketball.jpg', title: 'Basketball', description: 'Official-size basketball for indoor and outdoor play.', price: 29.99 },
-    { id: 8, img: 'images/fern.jpg', title: 'Fern', description: 'Beautiful green fern to liven up your space.', price: 15.99 },
-    { id: 9, img: 'images/mushroom.jpg', title: 'Mushrooms', description: 'Freshly harvested organic mushrooms.', price: 5.49 },
-    { id: 10, img: 'images/tomato.jpg', title: 'Tomato Basil', description: 'Fresh tomatoes with a touch of basil.', price: 4.99 },
-    { id: 11, img: 'images/seastar.jpg', title: 'Sea Star', description: 'A stunning sea star from the deep ocean.', price: 9.99 },
-    { id: 12, img: 'images/bike.jpg', title: 'Bike', description: 'A high-performance mountain bike.', price: 349.99 }
+    { id: 1, img: 'images/images.jpg', title: 'Breakfast', description: 'A delicious morning meal to start your day.', price: 12.99 },
+    { id: 2, img: 'images/images.jpg', title: 'Burger', description: 'Juicy beef burger with fresh lettuce and cheese.', price: 8.99 },
+    { id: 3, img: 'images/images.jpg', title: 'Camera', description: 'Capture every moment with this high-quality camera.', price: 499.99 },
+    { id: 4, img: 'images/images.jpg', title: 'Coffee', description: 'Freshly brewed coffee for an energetic day.', price: 3.99 },
+    { id: 5, img: 'images/images.jpg', title: 'Hats', description: 'Stylish hats to complete your look.', price: 19.99 },
+    { id: 6, img: 'images/images.jpg', title: 'Honey', description: 'Pure organic honey, straight from the hive.', price: 7.99 },
+    { id: 7, img: 'images/images.jpg', title: 'Basketball', description: 'Official-size basketball for indoor and outdoor play.', price: 29.99 },
+    { id: 8, img: 'images/images.jpg', title: 'Fern', description: 'Beautiful green fern to liven up your space.', price: 15.99 },
+    { id: 9, img: 'images/images.jpg', title: 'Mushrooms', description: 'Freshly harvested organic mushrooms.', price: 5.49 },
+    { id: 10, img: 'images/images.jpg', title: 'Tomato Basil', description: 'Fresh tomatoes with a touch of basil.', price: 4.99 },
+    { id: 11, img: 'images/images.jpg', title: 'Sea Star', description: 'A stunning sea star from the deep ocean.', price: 9.99 },
+    { id: 12, img: 'images/images.jpg', title: 'Bike', description: 'A high-performance mountain bike.', price: 349.99 }
 ];
